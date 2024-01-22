@@ -17,7 +17,7 @@ interface WrapperProps {
 
 export const Wrapper = styled.div<WrapperProps>`
   display: flex;
-  border-radius: 16px;
+  /* border-radius: 16px; */
   /* background: #fa641e; */
   background: linear-gradient(90deg, #ff881f 0%, #fa641e 100%);
   color: #fff;
