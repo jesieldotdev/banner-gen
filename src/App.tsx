@@ -18,7 +18,7 @@ export default function App() {
   const [slug, setSlug] = React.useState<string>('dudalicious')
   const [dimension, setDimensions] = React.useState<{ width: number, height: number }>()
   const [width, setWidth] = React.useState<number>(300)
-  const [height, setHeight] = React.useState<number>(500)
+  const [height, setHeight] = React.useState<number>(560)
   const ref = useRef(null)
   const [uploadedImage, setUploadedImage] = React.useState(null);
 

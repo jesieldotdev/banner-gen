@@ -25,11 +25,18 @@ export const Wrapper = styled.div<WrapperProps>`
 
   width: ${(props) => props.bannerWidth}px;
   height: ${(props) => props.bannerHeight}px;
+  /* transform: scale(.2); */
 
   margin-top: 16px;
+  margin-bottom: auto;
   padding: 16px;
   margin-left: 16px;
   margin: 0px;
+  /* position: relative; */
+  /* bottom: 760px; */
+  /* margin-bottom: -760px; */
+  /* right: 200px; */
+  /* z-index: 20px; */
   .main-text {
     font-weight: 700;
     font-size: 44px;
@@ -47,6 +54,7 @@ export const Wrapper = styled.div<WrapperProps>`
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 32px;
+    line-height: 1.1;
   }
 
   .image {
@@ -58,15 +66,15 @@ export const Wrapper = styled.div<WrapperProps>`
   }
 
   .upload-image {
-    width: 60px;
-    height: 60px;
+    width: 63px;
+    height: 63px;
     position: relative;
-    bottom: 104px;
-    right: 99px;
+    bottom: 103.5px;
+    right: 100px;
     transform: rotate(-5deg);
     margin-right: -99px;
     margin-bottom: -52px;
-    border-radius: 30px;
+    border-radius: 50%;
   }
 
   .download {
